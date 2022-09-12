@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.div2{
+    width: 100%;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.div2 .box{
+	position: relative;
+	width: 200px;
+	height: 180px;
+	background: #ff0;
+	margin-left: 40px;
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+.div2 .box .imgbox{
+	position: relative;
+	overflow: hidden;
+}
+.div2 .box .imgbox img{
+	max-width: 100%;
+	height: 180px;
+	transition: transform 3s;
+}
+.div2 .box:hover .imgbox img{
+	transform: scale(1.2);
+}
+
+
+.div2 .content p{
+	padding-left: 50px;
+   font-size: 20px;
+   color:black;
+}
+
+
+
+.div2 .container3 .box1{
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+.div2 .container3 .box1 .imgbox1{
+	position: relative;
+	overflow: hidden;
+   border: 10px solid black;
+}
+.div2 .container3 .box1 .imgbox1 img{
+	max-width: 100%;
+	height: 200px;
+	transition: transform 2s;
+}
+.div2 .container3 .box1:hover .imgbox1 img{
+	transform: scale(1.2);
+}
+
+#btn1:hover{
+	color: #eaee14;
+}
+/*.div2 .box .imgbox .link{
+	position: relative;
+    height: 100%;
+	padding-bottom: 50%;
+
+}*/
+/* Login */
+
+body.bg{
+    background-image: url('bag1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ .loginbox{
+    width: 320px;
+    height: 480px;  
+    margin-left: 40%;
+    margin-top: 150px;
+    border:2px solid;
+    border-color:black;
+    
+ }
+ .logo{
+    margin-left: 100px;
+    width: 60;
+    height: 60;
+ }
+ 
+ #sign{
+    padding-left: 34%;
+    color: black;
+ }
+ #Luser{
+    padding-left: 30%;
+    color: black;
+    font-size: 18px;
+    }
+#user{
+    margin-top: 10px;
+    margin-left: 22%;
+    padding: 3px 1px;
+}
+ #pass{
+    margin-top: 10px;
+    margin-left: 22%;
+    padding: 3px 1px;
+ }
+ #Lpass{
+    padding-left: 30%;
+    color: black;
+    font-size: 18px;
+
+ }
+ #check{
+    margin-left: 22%;
+ }
+ #login{
+    margin-left: 40%;
+    padding: 5px 12px;
+    
+ }
+ #login:hover{
+    background-color: red;
+ }
+ #forget
+ {
+    margin-left: 70px;
+    color:white;
+ }
+ #account
+ {
+  margin-left: 30px;
+  color: red;
+ }
+ #forget:hover{
+    color:blue;
+ }
+ #page2{
+    color: black;
+ }
+ #page2:hover{
+  color:blue;
+ }
+
+ /* signup */
+
+ .div3{
+    width: 350px;
+    height: 500px;  
+    margin-left: 40%;
+    margin-top: 150px;
+    border:2px solid;
+    border-color:black;
+ }
+ .h2{
+    padding-left: 30%;
+ }
+ #Lemail{
+   padding-left: 38%;
+   color: black;
+   font-size: 18px;
+ }
+ #Lemail1{
+    margin-left: 25%;
+    margin-top: 10px;
+    padding: 3px 1px;
+ }
+ #Npass{
+   padding-left: 30%;
+   color: black;
+   font-size: 18px;
+ }
+ #pass1{
+   margin-left: 25%;
+   margin-top: 10px;
+   padding: 3px 1px;
+ }
+ #Cpass{
+   padding-left: 20%;
+   color: black;
+   font-size: 18px;
+ }
+ #pass2{
+   margin-left: 25%;
+   margin-top: 10px;
+   padding: 3px 1px;
+ }
+ #Luser1{
+   padding-left: 35%;
+   color: black;
+   font-size: 18px;
+ }
+ #user1{
+   margin-left: 25%;
+   margin-top: 10px;
+   padding: 3px 1px;
+ }
+ 
+ #res1{
+    margin-left: 35%;
+    padding: 3px 5px;
+ }
+ #res1:hover{
+    background-color: red;
+ }
+ #sub1{
+   padding: 3px 5px;
+ }
+ #sub1:hover{
+    background-color: red;
+ }
+ .h2{
+    color:black;
+    margin-top: 15px;
+ }
+
+ #label1{
+    margin-left: 40px;
+    color: red;
+ }
+ #back{
+    color: black;
+ }
+ #back:hover{
+ color:blue;
+ }
